@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background-size: 100% auto;
+	background-image: url(bg.jpg);
+	background-repeat: repeat-y;
+	font-family: Tahoma, Geneva, sans-serif;
+	line-height:2em;
+	margin-left: 40%;
+	color: #38271d;
+}
+
+img
+{
+	border-radius:30px;	
+	box-shadow: 5px 5px 10px 7px rgba(0,0,0,0.7);
+	border: 20px solid black;
+}
+#logo
+{
+	width: 40%;
+	display: block;
+	margin-right: auto;
+	padding: 15px;
+}
+
+#tartalom
+{
+	box-shadow: -5px 5px 10px 7px rgba(0,0,0,0.7);	
+	width: 70%;
+	margin: 20px;
+	opacity: 0.7;
+}
+
+h1
+{
+	text-shadow:2px 2px 5px  rgba(0,0,0,0.7);
+	line-height:1.5em;
+	color: #1c1815;
+	font-size: 30px;
+	text-align: center;
+	
+}
+h2{
+	font-size: 24px;
+	color: #1c1815;
+	text-transform: capitalize;
+
+}
+
+li
+{
+	list-style-position:inside;
+	list-style-image: url(icon.jpg);
+	font-size: 20px;
+}
+
+p
+{
+	text-align:justify;
+}
+
+p:first-letter
+{
+	margin-left:20px;
+}
+
+a
+{
+	color:#1c1815;
+	text-decoration:none;
+}
+
+a:hover
+{
+	text-decoration:underline;
+	font-weight:800;
+}
+
